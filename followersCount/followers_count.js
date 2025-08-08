@@ -18,3 +18,7 @@ function increaseCount() {
   checkCountValue(); // Check count value and display messages
 }
 
+function resetCount() {
+  count = 0;
+  displayCount(); // Display the count
+}
